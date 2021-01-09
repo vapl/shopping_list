@@ -1,0 +1,45 @@
+.container {
+    margin-top: 30px;
+    max-width: 720px;
+}
+
+.list-group {
+    padding-left: 12px;
+    margin-top: 30px;
+}
+
+.btn-item-del {
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    background: none;
+    right: 5px;
+    transition: transform .2s;
+}
+
+.check-style {
+    color: rgb(4, 114, 40);
+    font-size: 20px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+  
+.btn-item-del:hover {
+    color: rgb(148, 5, 5);
+    transform: scale(1.5);
+}
+
+.btn-item-del:focus {
+    outline: none;
+}
+
+li:hover {
+    background: rgba(241, 241, 241, 0.486);
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.493);
+    padding-left: 35px;
+}
