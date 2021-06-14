@@ -53,6 +53,7 @@ function checkDone(event) {
     }
 }
 addEventListener("click", checkDone);
+addEventListener("touchstart", checkDone);
 
 
 // Delete item by clicking on X button
